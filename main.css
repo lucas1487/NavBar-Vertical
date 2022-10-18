@@ -250,7 +250,8 @@ right: 0;
 }
 
 .cuartaSeccionTexto{
-    width: 80%;
+    width: 50%;
+    
     border-style: solid;
  margin: auto;
  margin-top: 25px ;
@@ -264,12 +265,72 @@ right: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-   height: 75vh;
+        flex-wrap: nowrap;
+
+   height: 70vh;
+}
+.textDiseñadores{
+    width: 90%;
+    display: flex;
+    border-style: solid;
+    height: 100px;
 }
 
 .footer{
-    background-color:aliceblue;
+    background-color:crimson;
     width: 100%;
     height: 50vh;
+
+}
+
+.contFooter{
+    
+    height: 25vh;
+width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    
+}
+
+
+.logoFooter{
+    width: 30%;
+    height: 20vh;
+    border-style: solid;
+
+}
+
+
+.logoFooter{
+   text-align: center;
+   align-items: center;
+
+}
+
+.lineFooter{
+    margin: auto;
+    width: 90%;
+    border-style: solid;
+}
+
+.iconsFooter{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+}
+
+.iconFooter  {
+    width: 20px;
+    margin-left: 50px;
+
+}
+
+.iconsFooter ul{
+    display: flex;
+    list-style:none;
 
 }

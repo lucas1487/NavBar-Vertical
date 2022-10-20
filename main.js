@@ -23,8 +23,8 @@ btnClose.addEventListener('click', ()=>{
 })
 
 
-const btnProd=document.getElementById('productos');
-btnProd.addEventListener('click', ()=>{
+const productos=document.getElementById('productos');
+productos.addEventListener('click', ()=>{
     let ocultarContenido=document.getElementById('pagina');
         ocultarContenido.style.display='none';
         let mostrarContenido=document.getElementById('contenidoGral');
@@ -34,3 +34,38 @@ btnProd.addEventListener('click', ()=>{
 
 
 })
+
+const comoLoHacemos=document.getElementById('comoLoHacemos');
+comoLoHacemos.addEventListener('click', ()=>{
+    let ocultarContenido=document.getElementById('pagina');
+        ocultarContenido.style.display='none';
+        let mostrarContenido=document.getElementById('contenidoGral');
+        mostrarContenido.style.display='block';
+    
+        
+
+
+})
+const aboutUs=document.getElementById('aboutUs');
+aboutUs.addEventListener('click', ()=>{
+    let ocultarContenido=document.getElementById('pagina');
+        ocultarContenido.style.display='none';
+        let mostrarContenido=document.getElementById('contenidoGral');
+        mostrarContenido.style.display='block';
+    
+        
+
+
+})
+const colaboraciones=document.getElementById('colaboraciones');
+colaboraciones.addEventListener('click', ()=>{
+    let ocultarContenido=document.getElementById('pagina');
+        ocultarContenido.style.display='none';
+        let mostrarContenido=document.getElementById('contenidoGral');
+        mostrarContenido.style.display='block';
+    
+        
+
+
+})
+

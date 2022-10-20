@@ -1,5 +1,6 @@
 body{
 background-color: rgba(0, 0, 0, 0.349);
+overflow-x: hidden;
 }
 
 .main{
@@ -334,3 +335,46 @@ width: 75%;
     list-style:none;
 
 }
+@keyframes go-bottom-top {       
+    from { bottom: 0px; }             
+    to { bottom:  calc(10% - 50px); } 
+  }
+
+  .flechaArriba {
+    animation: go-bottom-top 1s infinite alternate;
+    
+
+    position: relative;
+    width: 50px;
+    height: 20px;
+    
+    margin-left: 15px;
+
+   
+
+}
+
+.iconWhatsapp{
+    animation: go-bottom-top 3s infinite alternate;
+
+}
+
+
+
+.slogan {
+    position: relative;
+    animation-name: moveToRight;
+    animation-duration: 2s;
+  }
+
+  @keyframes moveToRight {
+  0% {
+      opacity: 0;
+      left: -10000px;
+  }
+  100% {
+      opacity: 1;
+      left: 0;
+  }
+}
+

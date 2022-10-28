@@ -237,29 +237,6 @@ font-feature-settings: 'salt' on, 'kern' off;
 
 }
 
-
-
-
-
-.segundaSeccion{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-    background: url(/Img/segundaSeccion.png);
-    width: 100%;
-    height: 180vh;
-    position: relative;
-    top:140vh;
-}
-
-.tituloSegundaSeccion {
-    margin-top: 100px;
-    width: 50%;
-    text-align: center;
-    padding-top: 10px;
-
-}
 .contProcesoGral{
     display: flex;
     flex-direction: column;
@@ -300,41 +277,178 @@ font-feature-settings: 'salt' on, 'kern' off;
 }
 
 
+/*SEGUNDA SECCION*/
+
+.segundaSeccion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background: url(/Img/segundaSeccion.png)center fixed ;
+    background-size:     cover;                     
+    background-repeat:   no-repeat;
+    background-position: center center;
+    width: 100%;
+    height: 130vh;
+    position: relative;
+    top:140vh;
+}
+
+.contSegundaSeccion{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 80vh;
+    background-color: #0000005e;
+    margin-top: 100px;
+}
+.contTextoSegundaSeccion{
+    width: 80%;
+    height: 50vh;
+    border-bottom: solid ;
+
+    border-top: solid;
+    border-color: #FFFFFF;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.textoSegundaSeccion{
+    width: 80%;
+    font-size:xx-large;
+    color: #FFFFFF;
+
+}
 
 
 
+
+/*TERCERA SECCION*/
 
 
 
 .terceraSeccion{
-    background-color:chocolate;
+    background:url(Img/mountains-clouds-forest-fog.jpg)center fixed ;
+    background-size:     cover;                     
+    background-repeat:   no-repeat;
+    background-position: center center;
     width: 100%;
-    height: 100vh;
+    height: 90vh;
+    position: relative;
+    top:140vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.tituloTerceraSeccion{
-    width: 50%;
+.contTextoTerceraSeccion{
     text-align: center;
-    padding-top: 10px;
 }
+
+.textoOscuro{
+    font-family: 'Source Sans Pro';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 125px;
+    line-height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    letter-spacing: 0.04em;
+    text-indent: 20px;
+    font-feature-settings: 'salt' on, 'kern' off;
+    -webkit-text-stroke: 2px #FFFFFF;
+    color: #FFFFFF;
+}
+
+.textoClaro{
+    font-family: 'Source Sans Pro';
+font-style: italic;
+font-weight: 700;
+font-size: 125px;
+line-height: 90%;
+display: flex;
+align-items: center;
+justify-content: flex-end;
+letter-spacing: 0.04em;
+text-indent: 20px;
+font-feature-settings: 'salt' on, 'kern' off;
+-webkit-text-stroke: 2px #FFFFFF;
+  color: transparent; 
+}
+
+.textoTerceraSeccion{
+    margin-top: 50px;
+    color: #FFFFFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .cuartaSeccion{
-    background-color:darkslateblue;
+    background:url(Img/fondo.svg)center fixed ;
+    background-size:     cover;                     
+    background-repeat:   no-repeat;
+    background-position: center center;
+   
     width: 100%;
-    height: 100vh;
-}
-.tituloCuartaSeccion{
-    width: 50%;
-    text-align: center;
-    padding-top: 10px;
+    height: 170vh;
+    position: relative;
+    top:140vh;
 }
 
-.cuartaSeccionTexto{
+.contMonta{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+}
+.tituloCuartaSeccion{
+    width: 100%;
+    height: 70vh;
+  ;
+    background: url(img/2.png)center  ;
+    background-size:     cover;                     
+    background-repeat:   no-repeat;
+    background-position: center center;
+}
+.contenidoCuartaSeccion{
+    display: flex;
+    justify-content: flex-start;
+
+}
+.hola{
     width: 50%;
-    
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
     border-style: solid;
- margin: auto;
- margin-top: 25px ;
+ 
 }
 
 .cuartaSeccionTexto p{

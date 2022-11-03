@@ -6,7 +6,7 @@ overflow-x: hidden;
     height: 125vh;
     width: 100%;
     display: flex;
-    background: url(/Img/main.jpg)center fixed ;
+    background: url(Img/main.jpg)center fixed ;
     background-size:     cover;                     
     background-repeat:   no-repeat;
     background-position: center center;
@@ -194,7 +194,7 @@ height: 338px;
 
 
 .primeraSeccion{
-    background: url(/Img/primeraSeccion.jpg);
+    background: url(Img/primeraSeccion.jpg);
     width: 100%;
     height:180vh;
         border-radius: 115px;
@@ -272,7 +272,7 @@ font-feature-settings: 'salt' on, 'kern' off;
     border-color: #FFFFFF;
     border-radius: 25px;
     margin: 5px;
-    font-size: x-large;
+    font-size: 20px;
     padding: 50px;
 }
 
@@ -284,7 +284,7 @@ font-feature-settings: 'salt' on, 'kern' off;
     justify-content: center;
     align-items: center;
     margin: auto;
-    background: url(/Img/segundaSeccion.png)center fixed ;
+    background: url(Img/segundaSeccion.png)center fixed ;
     background-size:     cover;                     
     background-repeat:   no-repeat;
     background-position: center center;
@@ -403,45 +403,111 @@ font-feature-settings: 'salt' on, 'kern' off;
 
 
 
-
+/* CUARTA SECCION*/
 
 
 
 
 .cuartaSeccion{
+    
     background:url(Img/fondo.svg)center fixed ;
     background-size:     cover;                     
     background-repeat:   no-repeat;
     background-position: center center;
    
     width: 100%;
-    height: 170vh;
+    height: 150vh;
     position: relative;
     top:140vh;
+    
+    
 }
 
-.contMonta{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
 
-}
-.tituloCuartaSeccion{
+.monta{
     width: 100%;
-    height: 70vh;
-  ;
-    background: url(img/2.png)center  ;
+    height: 100vh;
+    position: relative;
+display: flex;
+    bottom:89vh;
+
+    background: url(Img/2.png)center  ;
     background-size:     cover;                     
     background-repeat:   no-repeat;
-    background-position: center center;
-}
-.contenidoCuartaSeccion{
-    display: flex;
-    justify-content: flex-start;
+
 
 }
+.tibu{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-left: 100px;
+
+}
+
+.contenidoCuartaSeccion{
+    margin: 0 auto;
+    margin-top: 25px;
+    width: 75%;
+   display: flex;
+   flex-direction: column;
+    
+
+}
+.procesoMon{
+    display: flex;
+    
+}
+
+.procesoContMon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    width: 40%;
+
+}
+.procesoContMon h2{
+    font-size: 40px;
+}
+.textProcesoMon{
+    border: solid ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-color: #FFFFFF;
+    border-radius: 25px;
+    margin: 5px;
+    padding: 10px;
+}
+.procesoContMon p{
+    font-size: 20px;
+    text-align: center;
+}
+
+.procesoContMon2{
+display: flex;
+align-items: flex-end;
+justify-content: flex-end;
+color: #FFFFFF;
+    width: 40%;
+    z-index:1;
+}
+
+.procesoMon2{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.procesoContMon2 p{
+    font-size: 20px;
+    text-align: center;
+}
+
+
+
 .hola{
     width: 50%;
     display: flex;
@@ -571,3 +637,233 @@ width: 75%;
   }
 }
 
+
+
+/* tablet*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .contProcesoGral{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .contProceso{
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 25px;
+    
+    }
+    
+    .procesoCont{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: #FFFFFF;
+    
+    }
+    .procesoCont h2{
+        font-size: 35px;
+    }
+    .textProceso{
+        width:90%;
+        border-bottom: solid ;
+        border-left: solid;
+        border-right: solid;
+        border-color: #FFFFFF;
+        border-radius: 25px;
+        margin: 5px;
+        font-size: 15px;
+        padding: 25px;
+    }
+
+    .imgProceso img{
+        width: 85%;
+    }
+
+    .custom-navbar{
+        display: none;
+    }
+
+    .primeraSeccion{
+        
+        height:150vh;
+            
+    }
+    .segundaSeccion{
+        
+        top:110vh;
+    }
+
+    .terceraSeccion{
+       
+        top:110vh;
+        
+    }
+
+    .cuartaSeccion{
+        top: 110vh;
+    }
+
+    .contTextoSegundaSeccion {
+    width: 80%;
+    height: 30vh;
+    font-size: 20px;
+    
+}
+    .contTextoSegundaSeccion p{
+        
+        font-size: 20px;
+        
+    }
+
+
+    .textoOscuro{
+        
+        font-size: 100px;
+        
+    }
+    
+    .textoClaro{
+        
+    font-size: 100px;
+   
+    }
+    
+    .textoTerceraSeccion{
+        font-size: 25px;
+    }   
+    
+  }
+
+  @media (min-width: 481px) and (max-width: 767px) {
+    .slogan{
+        
+    padding: 10px;
+    
+    }
+    .marca{
+        font-size: 15px;
+        text-align: center;
+
+        
+    
+    }
+    .logoCentral{
+        
+    width: 200px;
+    height: 200px;
+    
+    }
+
+    .primeraSeccion{
+        
+        height:120vh;
+            
+    }
+    .segundaSeccion{
+        
+        top:90vh;
+    }
+    .terceraSeccion{
+       
+        top:90vh;
+        
+    }
+    .procesoCont h2{
+        font-size: 35px;
+    }
+    .textProceso{
+        
+        font-size: 10px;
+        padding: 25px;
+    }
+
+    .imgProceso img{
+        width: 85%;
+    }
+    .contTextoSegundaSeccion p{
+        
+        font-size: 15px;
+        
+    }
+
+    .tituloPrimeraSeccion h2{
+      
+    font-size: 75px;
+  
+    
+    }
+
+    .textoOscuro{
+        
+        font-size: 75px;
+        
+    }
+    
+    .textoClaro{
+        
+    font-size: 75px;
+   
+    }
+    
+    .textoTerceraSeccion{
+        font-size: 20px;
+    }   
+  }
+
+
+  @media (min-width: 320px) and (max-width: 480px) {
+  
+    .procesoCont h2{
+        font-size: 35px;
+    }
+    .textProceso{
+        width:90%;
+        border-bottom: solid ;
+        border-left: solid;
+        border-right: solid;
+        border-color: #FFFFFF;
+        border-radius: 25px;
+        margin: 5px;
+        font-size: 10px;
+        padding: 25px;
+    }
+
+    .imgProceso img{
+        width: 85%;
+    }
+    .contTextoSegundaSeccion p{
+        
+        font-size: 15px;
+        
+    }
+
+    .tituloPrimeraSeccion h2{
+       
+    font-size: 75px;
+   
+    
+    }
+
+    .textoOscuro{
+        
+        font-size: 50px;
+        
+    }
+    
+    .textoClaro{
+        
+    font-size: 100px;
+   
+    }
+    
+    .textoTerceraSeccion{
+        font-size: 25px;
+    }   
+    
+  }

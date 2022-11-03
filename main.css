@@ -695,6 +695,29 @@ width: 75%;
          
          }
 
+         #tituloPrimeraSeccionMobile{
+            display: flex !important
+            ;
+            width: 100%;
+            font-family: 'Source Sans Pro';
+            font-style: italic;
+            font-size: 60px;
+            line-height: 90%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            letter-spacing: 0.04em;
+            text-indent: 10px;
+            font-feature-settings: 'salt' on, 'kern' off;
+            -webkit-text-stroke: 2px #E46C00;
+              color: transparent; 
+              padding: 10px;
+                    }
+            
+                    #tituloPrimeraSeccionMobile p {
+                        color:#E46C00;
+                    }
+
     .terceraSeccion{
        
         top:110vh;
@@ -770,6 +793,14 @@ width: 75%;
         top:90vh;
         
     }
+
+    .cuartaSeccion{
+     
+        
+        top:90vh;
+        
+        
+    }
     .procesoCont h2{
         font-size: 35px;
     }
@@ -795,6 +826,30 @@ width: 75%;
     
     }
 
+
+    #tituloPrimeraSeccionMobile{
+        display: flex !important
+        ;
+        width: 100%;
+        font-family: 'Source Sans Pro';
+        font-style: italic;
+        font-size: 60px;
+        line-height: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        letter-spacing: 0.04em;
+        text-indent: 10px;
+        font-feature-settings: 'salt' on, 'kern' off;
+        -webkit-text-stroke: 2px #E46C00;
+          color: transparent; 
+          padding: 10px;
+                }
+        
+                #tituloPrimeraSeccionMobile p {
+                    color:#E46C00;
+                }
+
     .textoOscuro{
         
         font-size: 75px;
@@ -809,7 +864,77 @@ width: 75%;
     
     .textoTerceraSeccion{
         font-size: 20px;
-    }   
+    }    
+    .monta{
+       
+        
+        bottom:69vh;
+    
+       
+    
+    
+    }
+    .textProcesoMon img{
+        width: 30px;
+    }
+    .tibu{
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        margin-left: 100px;
+    }
+
+    .tibu img{
+        width: 40px;
+
+    }
+    
+    .contenidoCuartaSeccion{
+        margin: 0 auto;
+        margin-top: 25px;
+        width: 75%;
+       display: flex;
+       flex-direction: column;
+        
+    
+    }
+    .procesoMon{
+        display: flex;
+        
+    }
+    
+    .procesoContMon{
+        
+        width: 40%;
+    
+    }
+    .procesoContMon h2{
+        font-size: 15px;
+    }
+ 
+    .procesoContMon p{
+        font-size: 10px;
+        text-align: center;
+    }
+    
+    .procesoContMon2{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    color: #FFFFFF;
+        width: 40%;
+        z-index:1;
+    }
+    
+    .procesoMon2{
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+    .procesoContMon2 p{
+        font-size: 10px;
+        text-align: center;
+    }
     
   }
 
@@ -1028,6 +1153,8 @@ font-feature-settings: 'salt' on, 'kern' off;
     .procesoMon2{
         display: flex;
         justify-content: flex-end;
+        margin-bottom: 50px;
+
     }
     
     .procesoContMon2 p{

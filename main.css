@@ -698,6 +698,12 @@ width: 75%;
         
         top:110vh;
     }
+    .tituloPrimeraSeccion h2{
+      
+        display: none;
+       
+         
+         }
 
     .terceraSeccion{
        
@@ -814,9 +820,7 @@ width: 75%;
     .textoTerceraSeccion{
         font-size: 20px;
     }   
-    .cuartaSeccion{
-        display: none;
-    }
+    
   }
 
 
@@ -847,7 +851,7 @@ width: 75%;
         
         }
     .primeraSeccion{
-        height: 130vh;
+        height: 120vh;
         
 
     }
@@ -905,9 +909,7 @@ font-feature-settings: 'salt' on, 'kern' off;
 
 
 
-  .cuartaSeccion{
-    display: none;
-}
+
     .procesoCont h2{
         font-size: 25px;
     }
@@ -949,5 +951,97 @@ font-feature-settings: 'salt' on, 'kern' off;
     .textoTerceraSeccion{
         font-size: 25px;
     }   
+    .cuartaSeccion{
+        height: 100vh;
+        
+        top:90vh;
+        
+        
+    }
     
+    
+    .monta{
+       
+        
+        bottom:69vh;
+    
+       
+    
+    
+    }
+    .textProcesoMon img{
+        width: 30px;
+    }
+    .tibu{
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        margin-left: 100px;
+    }
+
+    .tibu img{
+        width: 40px;
+
+    }
+    
+    .contenidoCuartaSeccion{
+        margin: 0 auto;
+        margin-top: 25px;
+        width: 75%;
+       display: flex;
+       flex-direction: column;
+        
+    
+    }
+    .procesoMon{
+        display: flex;
+        
+    }
+    
+    .procesoContMon{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: #FFFFFF;
+        width: 75%;
+    
+    }
+    .procesoContMon h2{
+        font-size: 15px;
+    }
+    .textProcesoMon{
+        border: solid ;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-color: #FFFFFF;
+        border-radius: 25px;
+        margin: 5px;
+        padding: 5px;
+    }
+    .procesoContMon p{
+        font-size: 10px;
+        text-align: center;
+    }
+    
+    .procesoContMon2{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    color: #FFFFFF;
+        width: 40%;
+        z-index:1;
+    }
+    
+    .procesoMon2{
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+    .procesoContMon2 p{
+        font-size: 10px;
+        text-align: center;
+    }
   }

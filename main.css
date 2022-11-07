@@ -295,6 +295,7 @@ font-feature-settings: 'salt' on, 'kern' off;
 }
 .textProceso{
     width: 75%;
+    height: 40vh;
     border-bottom: solid ;
     border-left: solid;
     border-right: solid;
@@ -788,6 +789,7 @@ align-items: flex-start;
     }
     .textProceso{
         width:90%;
+        height: 30vh;
         border-bottom: solid ;
         border-left: solid;
         border-right: solid;
@@ -932,7 +934,8 @@ align-items: flex-start;
         font-size: 35px;
     }
     .textProceso{
-        
+        height: 20vh;
+
         font-size: 10px;
         padding: 25px;
     }
@@ -1157,6 +1160,8 @@ font-feature-settings: 'salt' on, 'kern' off;
     }
     .textProceso{
         width:90%;
+        height: 25vh;
+
         border-bottom: solid ;
         border-left: solid;
         border-right: solid;
@@ -1164,7 +1169,7 @@ font-feature-settings: 'salt' on, 'kern' off;
         border-radius: 25px;
         margin: 5px;
         font-size: 10px;
-        padding: 25px;
+        padding: 15px;
     }
 
     .imgProceso img{
@@ -1287,5 +1292,18 @@ font-feature-settings: 'salt' on, 'kern' off;
     .procesoContMon2 p{
         font-size: 10px;
         text-align: center;
+    }
+    .quintaSeccion{
+        display: none;
+    }
+    .sectaSeccion{
+        display: none;
+
+    }
+
+    .social-media-icons ul li a img {
+    
+        width: 40%;
+    
     }
   }

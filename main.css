@@ -1,4 +1,5 @@
 body{
+    background-color:burlywood;
 overflow-x: hidden;
 }
 
@@ -94,21 +95,23 @@ right: 0;
 
 /* MENU*/
 #pagina{
+    width: 100%;
     background-color: rgba(0, 0, 0, 0.74);
     height: 100vh;
-    margin: auto;
+ 
 }
 .logoMenu{
-    width:  50%;
+    width:  30%;
 }
 .logoMenu img{
+    margin-left: 20px;
+
     width: 50%;
 }
 .contenido{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    
 
 }
 .enlaces ul{
@@ -123,34 +126,49 @@ right: 0;
 }
 .enlaces ul li a{
     color: #FFFFFF;
-
+    font-size:xx-large;
     text-decoration: none;
 
 }
 .encabezado{
     display: flex;
     align-items: center;
-justify-content: center;
+    width: 100%;
 }
-
+.menuClose{
+    width: 70%;
+}
 #closeMenu{
+    margin-right: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+.socialIcons{
+    width: 100%;
     
-    margin-left: 150px;
 }
 .socialIcons ul{
     display: flex;
+
     
 }
 
 .socialIcons ul li{
+    display: flex;
+
+    justify-content: center;
+    width: 100%;
+
 list-style: none;   
-margin: 10px; 
+}
+.munuIcons{
+    width: 100%;
 }
 
 .contenidoGeneral{
     display: flex;
-    justify-content: center;
-    margin: 0 auto;
+    flex-direction: column;
+    justify-content:space-between;
     width: 100%;
     height: 100vh;
 }
@@ -584,17 +602,23 @@ color: #FFFFFF;
     margin-bottom: 100px;
 }
 .imgPersona img{
- width: 350px;
+ width: 250px;
 }
 
 .textPersona{
-    width: 80%;
     font-size:larger;
+    color: #FFFFFF;
     margin: 25px;
     font-family: 'Source Sans Pro';
 font-style: normal;
 }
-
+.contPersona{
+    width: 90%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
 
@@ -692,13 +716,11 @@ font-style: normal;
     justify-content: center;
     align-items: center;
     width: 100%;
-    margin-left: 50px;
 
 
 }
 .iconsFooter ul li{
-    margin-left: 20px;
-
+margin: 10px;
 
 
 }
@@ -800,6 +822,22 @@ align-items: flex-start;
         padding: 25px;
     }
 
+    .textPersona p{
+        font-size: small;
+        padding: 5px;
+    }
+
+    .textPersona {
+        width:100%;
+        font-size: small;
+        padding: 5px;
+    }
+
+    .imgPersona img {
+        width:200%;
+    }
+
+
     .imgProceso img{
         width: 85%;
     }
@@ -872,19 +910,22 @@ align-items: flex-start;
 
     .textoOscuro{
         
-        font-size: 100px;
+        font-size: xx-large;
         
     }
     
     .textoClaro{
         
-    font-size: 100px;
+    font-size: xx-large;
    
     }
     
     .textoTerceraSeccion{
         font-size: 25px;
     }   
+
+    
+    
     
   }
 
@@ -929,6 +970,27 @@ align-items: flex-start;
         top:90vh;
         
         
+    }
+
+    .quintaSeccion{
+    
+        height: 120vh;
+        
+        top:90vh;
+    }
+   
+    .sectaSeccion{
+    
+        height: 100vh;
+        
+        top:90vh;
+    }
+
+    .footer{
+    
+        height: 100vh;
+        
+        top:90vh;
     }
     .procesoCont h2{
         font-size: 35px;
@@ -1065,7 +1127,29 @@ align-items: flex-start;
         font-size: 10px;
         text-align: center;
     }
+
+    .textoClaro{
+        font-size: xx-large;
+    }
+
+    .textoOscuro{
+        font-size: xx-large;
+    }
     
+    .textPersona p{
+        font-size:x-large;
+        padding: 5px;
+    }
+
+    .textPersona {
+        width:80%;
+        font-size: small;
+        padding: 5px;
+    }
+
+    .imgPersona img {
+        width:200%;
+    }
   }
 
 
@@ -1129,7 +1213,7 @@ display: flex !important
 width: 100%;
 font-family: 'Source Sans Pro';
 font-style: italic;
-font-size: 60px;
+font-size: xx-large;
 line-height: 90%;
 display: flex;
 align-items: center;
@@ -1146,21 +1230,12 @@ font-feature-settings: 'salt' on, 'kern' off;
             color:#E46C00;
         }
 
-
-
-
-
-
-
-
-
-
     .procesoCont h2{
         font-size: 25px;
     }
     .textProceso{
         width:90%;
-        height: 25vh;
+        height: 30vh;
 
         border-bottom: solid ;
         border-left: solid;
@@ -1171,13 +1246,16 @@ font-feature-settings: 'salt' on, 'kern' off;
         font-size: 10px;
         padding: 15px;
     }
+    .textProceso p{
+        font-size: 10px;
+    }
 
     .imgProceso img{
         width: 85%;
     }
     .contTextoSegundaSeccion p{
         
-        font-size: 15px;
+        font-size: small;
         
     }
 
@@ -1294,11 +1372,21 @@ font-feature-settings: 'salt' on, 'kern' off;
         text-align: center;
     }
     .quintaSeccion{
-        display: none;
+        height: 80vh;
+        
+        top:80vh;
     }
+    
     .sectaSeccion{
-        display: none;
+        height: 150vh;
+        
+        top:70vh;
 
+    }
+    .footer{
+        height: 130vh;
+        
+        top:50vh;
     }
 
     .social-media-icons ul li a img {
@@ -1306,4 +1394,54 @@ font-feature-settings: 'salt' on, 'kern' off;
         width: 40%;
     
     }
-  }
+    .contenidoMain{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .textPersona p{
+        font-size: 10px;
+    }
+
+    .textPersona {
+        width:80%;
+    }
+
+    .imgPersona img {
+        width:50%;
+    }
+    .imgPersona {
+text-align: center;}
+
+    .contPersona{
+        margin-top: 90px;
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse !important;
+        justify-content: center;
+        align-items: center;
+        ;
+    }
+    .contPersonaGral{
+        width: 90%;
+        margin-bottom: 10px;
+    }  
+    .personaCont{
+        width: 100%;
+    }
+
+    .contTextoTerceraSeccion{
+        width: 80%;
+
+    }
+
+    .contTextoTerceraSeccion h2{
+        font-size: large;
+
+    }
+
+    .contTextoTerceraSeccion h4{
+        font-size: large;
+
+    }
+}

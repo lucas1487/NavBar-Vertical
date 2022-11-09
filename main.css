@@ -192,6 +192,8 @@ list-style: none;
 }
 
 .slogan{
+    font-family: 'Source Sans Pro';
+font-style: normal;
     border: 2px solid #FFFFFF;
 filter: drop-shadow(2px 4px 8px #000000);
 border-radius: 37px;
@@ -215,7 +217,9 @@ color: #FFFFFF;
 }
 
 .marca{
-    font-size: 20px;
+    font-family: 'Source Sans Pro';
+font-style: normal;
+    font-size: large;
     margin-bottom: 20px;
     color: #FFFFFF;
     
@@ -309,9 +313,13 @@ font-feature-settings: 'salt' on, 'kern' off;
 
 }
 .procesoCont h2{
-    font-size: 50px;
+    font-family: 'Source Sans Pro';
+font-style: italic;
+    font-size: xx-large;
 }
 .textProceso{
+    font-family: 'Source Sans Pro';
+font-style: normal;
     width: 75%;
     height: 40vh;
     border-bottom: solid ;
@@ -320,8 +328,11 @@ font-feature-settings: 'salt' on, 'kern' off;
     border-color: #FFFFFF;
     border-radius: 25px;
     margin: 5px;
-    font-size: 20px;
+    font-size: large;
     padding: 50px;
+    display: flex;
+    align-items: center;
+
 }
 
 
@@ -364,6 +375,8 @@ font-feature-settings: 'salt' on, 'kern' off;
     align-items: center;
 }
 .textoSegundaSeccion{
+    font-family: 'Source Sans Pro';
+font-style: normal;
     width: 80%;
     font-size:xx-large;
     color: #FFFFFF;
@@ -428,6 +441,8 @@ font-feature-settings: 'salt' on, 'kern' off;
 }
 
 .textoTerceraSeccion{
+    font-family: 'Source Sans Pro';
+font-style: italic;
     margin-top: 50px;
     color: #FFFFFF;
 }
@@ -506,8 +521,15 @@ font-feature-settings: 'salt' on, 'kern' off;
     margin-bottom: 50px;
 
 }
-.procesoContMon h2{
-    font-size: 40px;
+.textProcesoMon h2{
+    font-family: 'Source Sans Pro';
+font-style: italic;
+    font-size: 3rem;
+}
+.textProcesoMon p{
+    font-family: 'Source Sans Pro';
+font-style: normal;
+    font-size: 3rem;
 }
 .textProcesoMon{
     border: solid ;
@@ -527,6 +549,7 @@ font-feature-settings: 'salt' on, 'kern' off;
 }
 
 .procesoContMon2{
+
 display: flex;
 align-items: flex-end;
 justify-content: flex-end;
@@ -606,6 +629,8 @@ color: #FFFFFF;
 }
 
 .textPersona{
+    font-family: 'Source Sans Pro';
+font-style: normal;
     font-size:larger;
     color: #FFFFFF;
     margin: 25px;
@@ -668,6 +693,8 @@ font-style: normal;
 }
 
 .contenidoContacto{
+    font-family: 'Source Sans Pro';
+font-style: normal;
     width: 100%;
     margin-bottom: 25px;
     color: #FFFFFF;

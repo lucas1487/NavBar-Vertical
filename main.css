@@ -7,14 +7,14 @@ overflow-x: hidden;
     height: 125vh;
     width: 100%;
     display: flex;
-    background: url(Img/main.jpg)center fixed ;
+    background: url(Img/main.jpg)center  ;
     background-size:     cover;                     
     background-repeat:   no-repeat;
     background-position: center center;
 }
 
 .iconWhatsapp{
-    width: 50px;
+    width: 40px;
     display: flex;
     justify-content: right;
     margin-top: 10;
@@ -173,9 +173,9 @@ list-style: none;
     height: 100vh;
 }
 .logo{
-    width: 150px;
+    width: 200px;
     display: flex;
-    margin-left: 15px;
+    margin-left: 25px;
     position: absolute;
 }
 
@@ -199,6 +199,8 @@ filter: drop-shadow(2px 4px 8px #000000);
 border-radius: 37px;
 padding: 15px;
 color: #FFFFFF;
+font-size: x-large;
+
 
 }
 .slogan:hover{
@@ -208,6 +210,7 @@ color: #FFFFFF;
 
 .enlaceSlogan{
     text-decoration: none;
+
 }
 
 .contentCentralMarca{
@@ -219,7 +222,7 @@ color: #FFFFFF;
 .marca{
     font-family: 'Source Sans Pro';
 font-style: normal;
-    font-size: large;
+    font-size: xx-large;
     margin-bottom: 20px;
     color: #FFFFFF;
     
@@ -257,7 +260,7 @@ height: 338px;
 }
 
 .tituloPrimeraSeccion{
-    width: 100%;
+    width: 90%;
     margin: auto;
     margin-top: 10px;
     text-align: center;

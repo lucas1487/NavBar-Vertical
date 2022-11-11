@@ -7,7 +7,7 @@ overflow-x: hidden;
     height: 125vh;
     width: 100%;
     display: flex;
-    background: url(Img/main.jpg)center  ;
+    background: url(Img/main.jpg)center fixed ;
     background-size:     cover;                     
     background-repeat:   no-repeat;
     background-position: center center;
@@ -1180,6 +1180,16 @@ align-items: flex-start;
     .imgPersona img {
         width:200%;
     }
+    #menuHamburguesa{
+        display: flex !important;
+        margin-right: 55px ;
+        width:99%;
+        position: fixed;
+z-index: 100;
+    }
+.custom-navbar{
+    display: none;
+}
   }
 
 
@@ -1473,5 +1483,9 @@ text-align: center;}
     .contTextoTerceraSeccion h4{
         font-size: large;
 
+    }
+
+    #menuHamburguesa{
+        display: block !important;
     }
 }

@@ -2,7 +2,22 @@ body{
     background-color:burlywood;
 overflow-x: hidden;
 }
+.inicio{
+    height: 5vh;
+    width: 100%;
+    background-color: #000000;
+    font-family: 'Source Sans Pro';
+    font-style: italic;
+    color: #FFFFFF;
+    text-align: center;
+    margin: auto;
+    position: fixed;
+    z-index: 100;
 
+}
+.inicio p{
+    margin: 5px;
+}
 .main{
     height: 125vh;
     width: 100%;
@@ -36,7 +51,7 @@ overflow-x: hidden;
 .custom-navbar{
 display: flex;
 justify-content: right;
-margin-top: 10;
+margin-top: 20px;
 position: fixed;
 z-index: 100;
 right: 0;
@@ -117,7 +132,7 @@ right: 0;
 .enlaces ul{
    color: #FFFFFF;
    text-decoration: none;
-
+    
 }
 .enlaces ul li {
 
@@ -142,6 +157,11 @@ right: 0;
     margin-right: 20px;
     display: flex;
     justify-content: flex-end;
+}
+.lineMenu{
+    width: 40%;
+    border: 1px solid #FFFFFF;
+    margin-right: auto;
 }
 .socialIcons{
     width: 100%;
@@ -331,7 +351,7 @@ font-style: normal;
     border-color: #FFFFFF;
     border-radius: 25px;
     margin: 5px;
-    font-size: large;
+    font-size: x-large;
     padding: 50px;
     display: flex;
     align-items: center;
@@ -628,6 +648,8 @@ color: #FFFFFF;
     margin-bottom: 100px;
 }
 .imgPersona img{
+    border: #FFFFFF solid;
+    border-radius: 25px;
  width: 250px;
 }
 
@@ -717,21 +739,32 @@ font-style: normal;
 }
 .footerContacto{
     margin: auto;
-    width: 50%;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .footerContacto li{
+    margin-bottom: 10px;
     list-style: none;
-    padding: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
 }
 
 .footerContacto li img{
-    width: 25%;
-    padding: 5px;
+    width: 15%;
     
 }
 
-
+.txtContacto{
+    margin: auto;
+    font-size: x-large;
+    
+}
 
 .lineFooter{
     margin: 0 auto;
@@ -1182,10 +1215,16 @@ align-items: flex-start;
     }
     #menuHamburguesa{
         display: flex !important;
+        margin-top: 20px;
+
         margin-right: 55px ;
         width:99%;
         position: fixed;
 z-index: 100;
+    }
+    #menuHamburguesa:hover{
+        background-color: #e46a0057;
+
     }
 .custom-navbar{
     display: none;
@@ -1486,6 +1525,25 @@ text-align: center;}
     }
 
     #menuHamburguesa{
-        display: block !important;
+        margin-top: 20px;
+
+        display: flex !important;
+        margin-right: 55px ;
+        width:99%;
+        position: fixed;
+z-index: 100;
+    }
+    #menuHamburguesa:hover{
+        background-color: #e46a0057;
+
+    }
+    #buttonHamburguesa{
+        background-color: #ffffff69;
+    }
+    #buttonHamburguesa:hover{
+        background-color: #ffffff00;
+    }
+    .custom-navbar{
+        display: none;
     }
 }

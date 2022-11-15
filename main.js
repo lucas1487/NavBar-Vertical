@@ -68,4 +68,13 @@ colaboraciones.addEventListener('click', ()=>{
 
 
 })
+//const buttonHamburguesa=document.getElementById('buttonHamburguesa');
+//buttonHamburguesa.addEventListener('click', ()=>{
+ //   let ocultarContenido=document.getElementById('menuHamburguesa');
+   //     ocultarContenido.style.backgroundColor='red';
+        
+    
+        
 
+
+//})

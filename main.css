@@ -547,7 +547,7 @@ font-style: italic;
 .textProcesoMon h2{
     font-family: 'Source Sans Pro';
 font-style: italic;
-    font-size: 3rem;
+    font-size: xx-large;
 }
 .textProcesoMon p{
     font-family: 'Source Sans Pro';
@@ -1246,7 +1246,7 @@ z-index: 100;
         
         }
         .marca{
-            font-size: 10px;
+            font-size: small;
             text-align: center;
     
             
@@ -1326,7 +1326,7 @@ font-feature-settings: 'salt' on, 'kern' off;
         padding: 15px;
     }
     .textProceso p{
-        font-size: 10px;
+        font-size: smaller;
     }
 
     .imgProceso img{
@@ -1334,7 +1334,7 @@ font-feature-settings: 'salt' on, 'kern' off;
     }
     .contTextoSegundaSeccion p{
         
-        font-size: small;
+        font-size: medium;
         
     }
 
@@ -1342,17 +1342,17 @@ font-feature-settings: 'salt' on, 'kern' off;
 
     .textoOscuro{
         
-        font-size: 50px;
+        font-size: x-large;
         
     }
     
     .textoClaro{
         
-    font-size: 50px;
+    font-size: x-large;
    
     }
     
-    .textoTerceraSeccion{
+    .textoTerceraSeccion h4{
         font-size: 25px;
     }   
     .cuartaSeccion{
@@ -1424,6 +1424,10 @@ font-feature-settings: 'salt' on, 'kern' off;
         border-radius: 25px;
         margin: 5px;
         padding: 5px;
+    }
+    .textProcesoMon h2{
+
+        font-size: xx-large;
     }
     .procesoContMon p{
         font-size: 10px;
@@ -1514,10 +1518,7 @@ text-align: center;}
 
     }
 
-    .contTextoTerceraSeccion h2{
-        font-size: large;
-
-    }
+    
 
     .contTextoTerceraSeccion h4{
         font-size: large;
@@ -1547,7 +1548,6 @@ text-align: center;}
     }
 
     #menuHamburguesa{
-        margin-top: 20px;
 
         display: flex !important;
         margin-right: 55px ;
@@ -1566,6 +1566,9 @@ z-index: 100;
         background-color: #ffffff00;
     }
     .custom-navbar{
+        display: none;
+    }
+    .inicio{
         display: none;
     }
 }

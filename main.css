@@ -1523,6 +1523,13 @@ text-align: center;}
         font-size: large;
 
     }
+    .inicio{
+        font-size: small;
+    }
+    .txtContacto{
+        font-size: small;
+
+    }
 
     #menuHamburguesa{
         margin-top: 20px;

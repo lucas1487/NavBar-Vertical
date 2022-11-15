@@ -1530,6 +1530,21 @@ text-align: center;}
         font-size: small;
 
     }
+    .contenidoContacto{
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    .footerContacto {
+        margin: 1px 1px;
+        padding: 1px 1px;
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
 
     #menuHamburguesa{
         margin-top: 20px;

@@ -163,6 +163,13 @@ right: 0;
     border: 1px solid #FFFFFF;
     margin-right: auto;
 }
+
+.lineMenuHamburguesa
+{
+    margin: auto;
+    width: 80%;
+    border: 1px solid #FFFFFF;
+}
 .socialIcons{
     width: 100%;
     
@@ -566,6 +573,9 @@ font-style: normal;
     padding: 10px;
     margin-bottom: 25px;
 }
+.textProcesoMon img{
+    width: 60%;
+}
 .procesoContMon p{
     font-size: 20px;
     text-align: center;
@@ -648,9 +658,9 @@ color: #FFFFFF;
     margin-bottom: 100px;
 }
 .imgPersona img{
-    border: #FFFFFF solid;
+    
     border-radius: 25px;
- width: 250px;
+ width: 300px;
 }
 
 .textPersona{
@@ -816,7 +826,7 @@ align-items: flex-start;
 
 }
 
-.iconWhatsapp{
+.iconWhatsapp, .iconWhatsapp2{
     animation: go-bottom-top 3s infinite alternate;
 
 }
@@ -1223,7 +1233,7 @@ align-items: flex-start;
 z-index: 100;
     }
     #menuHamburguesa:hover{
-        background-color: #e46a0057;
+        background-color: #00000057;
 
     }
 .custom-navbar{
@@ -1374,7 +1384,7 @@ font-feature-settings: 'salt' on, 'kern' off;
     
     }
     .textProcesoMon img{
-        width: 30px;
+        width: 60px;
     }
     .tibu{
         display: flex;
@@ -1488,6 +1498,7 @@ font-feature-settings: 'salt' on, 'kern' off;
 
     .textPersona {
         width:80%;
+        text-align: center;
     }
 
     .imgPersona img {
@@ -1550,25 +1561,62 @@ text-align: center;}
     #menuHamburguesa{
 
         display: flex !important;
-        margin-right: 55px ;
-        width:99%;
+        text-align: center;
+        width:100%;
         position: fixed;
 z-index: 100;
+background-color: #00000057;
+
     }
     #menuHamburguesa:hover{
-        background-color: #e46a0057;
+        background-color: #00000057;
 
     }
     #buttonHamburguesa{
         background-color: #ffffff69;
     }
     #buttonHamburguesa:hover{
-        background-color: #ffffff00;
+        background-color: #ffffff81;
     }
     .custom-navbar{
         display: none;
     }
     .inicio{
         display: none;
+    }
+    .flechaArriba {
+        
+        margin-left: 8px;
+        margin-bottom: 50px;
+    
+     
+       
+    
+    }
+    .iconWhatsapp2{
+        width: 40px;
+    display: flex !important;
+    justify-content: right;
+    margin-top: 10;
+    position: fixed;
+    z-index: 100;
+    bottom:  0;
+    right: 0;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    }
+    .socialIconsHamburguesa {
+        width: 90%;
+        margin-top: 10px;
+    }
+
+    .socialIconsHamburguesa ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .socialIconsHamburguesa ul li{
+        list-style: none;
     }
 }

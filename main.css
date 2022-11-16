@@ -1619,4 +1619,8 @@ background-color: #00000057;
     .socialIconsHamburguesa ul li{
         list-style: none;
     }
+    .logo{
+        margin-left: 10px;
+        width: 60%;
+    }
 }

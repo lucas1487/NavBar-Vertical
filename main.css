@@ -15,9 +15,12 @@ font-size: 1em;
     margin: auto;
     position: fixed;
     z-index: 100;
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .inicio p{
+    
     margin: 5px;
 }
 .main{
@@ -1112,7 +1115,7 @@ margin-bottom: 10px;
    
     .sectaSeccion{
     
-        height: 150vh;
+        height: 180vh;
         
         top:75vh;
     }
@@ -1209,8 +1212,8 @@ margin-bottom: 10px;
         width: 40%;
     
     }
-    .procesoContMon h2{
-        font-size: 15px;
+    .procesoContMon h2, .procesoContMon2 h2{
+        font-size: large;
     }
  
     .procesoContMon p{
@@ -1257,7 +1260,7 @@ margin-bottom: 10px;
     }
 
     .imgPersona img {
-        width:200%;
+        width:15%;
     }
     
 .custom-navbar{
@@ -1273,7 +1276,7 @@ font-size: 20px;
 }
 .contTextoSegundaSeccion p{
     
-    font-size: 20px;
+    font-size: small;
     
 }
 
@@ -1310,7 +1313,7 @@ font-size: 2em;
 text-align: center;}
 
 .contPersona{
-    margin-top: 90px;
+    margin-top: 130px;
     width: 100%;
     display: flex;
     flex-direction: column-reverse !important;
@@ -1395,13 +1398,16 @@ cursor: pointer;
     width: 60%;
 }
 
-
+.textProcesoMon p{
+    font-size: small;
+}
 
 
   }
 
 
   @media (min-width: 320px) and (max-width: 480px) {
+    
 .logo{
     
         width: 100px;

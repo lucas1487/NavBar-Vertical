@@ -920,17 +920,17 @@ align-items: flex-start;
     }
 
     .imgPersona img {
-        width:200%;
+        width:10%;
+        
     }
-
+    .imgPersona {
+text-align:center}
 
     .imgProceso img{
         width: 85%;
     }
 
-    .custom-navbar{
-        display: none;
-    }
+    
 
     .primeraSeccion{
         
@@ -1007,24 +1007,14 @@ align-items: flex-start;
 
     .textPersona {
         width:100%;
-        text-align: center;
     }
 
     .imgPersona img {
-        width:50%;
+        width:60%;
     }
-    .imgPersona {
-text-align: center;}
+    
 
-    .contPersona{
-        margin-top: 90px;
-        width: 100%;
-        display: flex;
-        flex-direction: column-reverse !important;
-        justify-content: center;
-        align-items: center;
-        ;
-    }
+   
     .contPersonaGral{
         width: 90%;
         margin-bottom: 10px;
@@ -1032,7 +1022,41 @@ text-align: center;}
     .personaCont{
         width: 100%;
     }
+    .textProcesoMon h2{
+
+        font-size: x-large;
+    }
+    .textProcesoMon p{
+
+        font-size: medium;
+    }
+    .textProcesoMon{
+        width: 100%;
+    }
+    .procesoMon2{
+width: 100%;  
+margin-bottom: 10px;      
+    }
+    .flechaArriba {
     
+        margin-left: 8px;
+        margin-bottom: 50px;
+    
+     
+       
+    
+    }
+    .social-media-icons ul li a img {
+    
+        width: 40%;
+    
+    }
+    .inicio{
+        height:5vh ;
+    }
+    .marca{
+        font-size: large;
+    }
     
   }
 

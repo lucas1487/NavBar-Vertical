@@ -5,10 +5,10 @@ font-size: 1em;
 
 }
 .inicio{
-    height: 5vh;
+    height: 4vh;
     width: 100%;
     background-color: #000000;
-    font-family: 'Source Sans Pro';
+    font-family: 'Source Sans Pro', sans-serif;
     font-style: italic;
     color: #FFFFFF;
     text-align: center;
@@ -122,7 +122,7 @@ right: 0;
 }
 .logoMenu img{
     margin-left: 20px;
-
+margin-top:20px;
     width: 50%;
 }
 .contenido{
@@ -221,8 +221,8 @@ list-style: none;
 }
 
 .slogan{
-    font-family: 'Source Sans Pro';
-font-style: normal;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
     border: 2px solid #FFFFFF;
 filter: drop-shadow(2px 4px 8px #000000);
 border-radius: 37px;
@@ -249,8 +249,8 @@ font-size: x-large;
 }
 
 .marca{
-    font-family: 'Source Sans Pro';
-font-style: normal;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
     font-size: xx-large;
     margin-bottom: 20px;
     color: #FFFFFF;
@@ -298,8 +298,9 @@ height: 338px;
 
 }
 .tituloPrimeraSeccion h2{
-    font-family: 'Source Sans Pro';
-font-style: italic;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: italic;
+    font-weight: bold;
 font-weight: 700;
 font-size: 6.8em;
 line-height: 90%;
@@ -345,9 +346,10 @@ font-feature-settings: 'salt' on, 'kern' off;
 
 }
 .procesoCont h2{
-    font-family: 'Source Sans Pro';
+    font-family: 'Source Sans Pro', sans-serif;
 font-style: italic;
-    font-size: xx-large;
+font-weight: bold;
+    font-size: 5em;
 }
 .textProceso{
     font-family: 'Source Sans Pro';
@@ -443,7 +445,7 @@ font-style: normal;
 }
 
 .textoOscuro{
-    width: 100%;
+    width: 60%;
     font-family: 'Source Sans Pro';
     font-style: italic;
     font-weight: 700;
@@ -451,7 +453,7 @@ font-style: normal;
     line-height: 90%;
     display: flex;
     align-items: center;
-    justify-content:flex-start;
+    justify-content:center;
     letter-spacing: 0.04em;
     text-indent: 20px;
     font-feature-settings: 'salt' on, 'kern' off;
@@ -460,6 +462,8 @@ font-style: normal;
 }
 
 .textoClaro{
+    width: 80%;
+
     font-family: 'Source Sans Pro';
 font-style: italic;
 font-weight: 700;
@@ -559,7 +563,8 @@ font-style: italic;
 .textProcesoMon h2{
     font-family: 'Source Sans Pro';
 font-style: italic;
-    font-size: xx-large;
+font-weight: bold;
+    font-size: 2.5rem;
 }
 .textProcesoMon p{
     font-family: 'Source Sans Pro';
@@ -809,6 +814,7 @@ margin: 10px;
 .iconsFooter ul{
     display: flex;
     list-style:none;
+    padding: 0;
 
 
 }
@@ -937,33 +943,12 @@ align-items: flex-start;
     }
     .tituloPrimeraSeccion h2{
       
-        display: none;
+        font-size: 45px;
        
          
          }
 
-         #tituloPrimeraSeccionMobile{
-            display: flex !important
-            ;
-            width: 100%;
-            font-family: 'Source Sans Pro';
-            font-style: italic;
-            font-size: 60px;
-            line-height: 90%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            letter-spacing: 0.04em;
-            text-indent: 10px;
-            font-feature-settings: 'salt' on, 'kern' off;
-            -webkit-text-stroke: 2px #E46C00;
-              color: transparent; 
-              padding: 10px;
-                    }
-            
-                    #tituloPrimeraSeccionMobile p {
-                        color:#E46C00;
-                    }
+       
 
     .terceraSeccion{
        
@@ -1134,34 +1119,13 @@ text-align: center;}
 
     .tituloPrimeraSeccion h2{
       
-   display: none;
+  font-size: 35px;
   
     
     }
 
 
-    #tituloPrimeraSeccionMobile{
-        display: flex !important
-        ;
-        width: 100%;
-        font-family: 'Source Sans Pro';
-        font-style: italic;
-        font-size: 60px;
-        line-height: 90%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        letter-spacing: 0.04em;
-        text-indent: 10px;
-        font-feature-settings: 'salt' on, 'kern' off;
-        -webkit-text-stroke: 2px #E46C00;
-          color: transparent; 
-          padding: 10px;
-                }
-        
-                #tituloPrimeraSeccionMobile p {
-                    color:#E46C00;
-                }
+ 
 
     .textoOscuro{
         
@@ -1463,32 +1427,11 @@ cursor: pointer;
     
     .tituloPrimeraSeccion h2{
       
-       display: none;
+       font-size: 35px;
       
         
         }
-        #tituloPrimeraSeccionMobile{
-display: flex !important
-;
-width: 100%;
-font-family: 'Source Sans Pro';
-font-style: italic;
-font-size: xx-large;
-line-height: 90%;
-display: flex;
-align-items: center;
-justify-content: center;
-letter-spacing: 0.04em;
-text-indent: 10px;
-font-feature-settings: 'salt' on, 'kern' off;
--webkit-text-stroke: 2px #E46C00;
-  color: transparent; 
-  padding: 10px;
-        }
-
-        #tituloPrimeraSeccionMobile p {
-            color:#E46C00;
-        }
+       
 
     .procesoCont h2{
         font-size: 25px;
@@ -1507,14 +1450,14 @@ font-feature-settings: 'salt' on, 'kern' off;
         padding: 15px;
     }
     .textProceso p{
-        font-size: smaller;
+        font-size: small;
     }
 
     .imgProceso img{
         width: 85%;
     }
     .contTextoSegundaSeccion p{
-        
+        margin: 10px;
         font-size: medium;
         
     }
@@ -1572,15 +1515,18 @@ font-feature-settings: 'salt' on, 'kern' off;
     .contenidoCuartaSeccion{
         margin: 0 auto;
         margin-top: 25px;
-        width: 75%;
+        width: 100%;
        display: flex;
        flex-direction: column;
+       justify-content: center;
+       align-items: center;
         
     
     }
     .procesoMon{
         display: flex;
         justify-content: center;
+        align-items: center;
     }
     
     .procesoContMon{
@@ -1589,7 +1535,7 @@ font-feature-settings: 'salt' on, 'kern' off;
         align-items: center;
         justify-content: center;
         color: #FFFFFF;
-        width: 75%;
+        width: 90%;
     
     }
     .procesoContMon h2{
@@ -1606,6 +1552,9 @@ font-feature-settings: 'salt' on, 'kern' off;
         margin: 5px;
         padding: 5px;
     }
+    .textProcesoMon p{
+       font-size: 100rem;
+    }
     .textProcesoMon h2{
 
         font-size: xx-large;
@@ -1616,11 +1565,12 @@ font-feature-settings: 'salt' on, 'kern' off;
     }
     
     .procesoContMon2{
+        margin: auto;
     display: flex;
-    align-items: flex-end;
-    justify-content: flex-end;
+    align-items: center;
+    justify-content: center;
     color: #FFFFFF;
-        width: 40%;
+        width: 90%;
         z-index:1;
     }
     
@@ -1680,7 +1630,7 @@ font-feature-settings: 'salt' on, 'kern' off;
 text-align:center}
 
     .contPersona{
-        margin-top: 50px;
+        margin-top: 100px;
         width: 100%;
         display: flex;
         flex-direction: column-reverse !important;
@@ -1810,5 +1760,7 @@ background-color: #000000e7;
         margin-left: 10px;
         width: 60%;
     }
-   
+    .mobileNone{
+        display: none;
+    }
 }

@@ -443,7 +443,7 @@ font-style: normal;
 }
 
 .contTextoTerceraSeccion{
-    width: 90%;
+    width: 100%;
     text-align: center;
 }
 
@@ -465,7 +465,7 @@ font-style: normal;
 }
 
 .textoClaro{
-    width: 80%;
+    width: 60%;
 
     font-family: 'Source Sans Pro';
 font-style: italic;
@@ -674,7 +674,7 @@ color: #FFFFFF;
 .imgPersona img{
     
     border-radius: 25px;
- width: 100%;
+ width: 50%;
 }
 
 .textPersona{

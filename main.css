@@ -443,7 +443,7 @@ font-style: normal;
 }
 
 .contTextoTerceraSeccion{
-    width: 100%;
+    width: 90%;
     text-align: center;
 }
 
@@ -674,7 +674,7 @@ color: #FFFFFF;
 .imgPersona img{
     
     border-radius: 25px;
- width: 50%;
+ width: 100%;
 }
 
 .textPersona{

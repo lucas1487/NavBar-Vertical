@@ -573,6 +573,7 @@ font-weight: bold;
     font-family: 'Source Sans Pro';
 font-style: normal;
     font-size: 3em;
+    font-weight: bold;
 }
 .textProcesoMon{
     border: solid ;
@@ -788,6 +789,7 @@ font-style: normal;
 .txtContacto{
     margin: auto;
     font-size: x-large;
+    font-weight: bold;
     
 }
 
